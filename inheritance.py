@@ -16,7 +16,10 @@ class Cat(Animal):
 
         #objects
 myCow = Cow()
-myCow.moor
+myCow.moow
 
 myCat = Cat()
 myCat.hunt
+
+print(myCow.isMammal, myCow.gender, myCow.age)
+print(myCat.isMammal, myCat.gender, myCat.age)
